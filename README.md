@@ -28,7 +28,7 @@ Opis parametrów:
 
 -o — plik tekstowy (zostanie wygenerowany lub nadpisany), w którym program zapisze wyniki na końcowych wyjściach układu.
 
-📁 Format plików wejściowych
+##📁 Format plików wejściowych
 Plik opisujący układ (argument -u): Plik powinien definiować numery węzłów wejściowych (IN:), węzłów wyjściowych (OUT:) oraz relacje między nimi.
 
 Przykład (zawartość pliku w1.txt):
@@ -50,7 +50,7 @@ Przykład (dla węzłów 1 i 6):
 1:1 6:0
 ```
 
-⚙️ Struktura projektu
+##⚙️ Struktura projektu
 MainKod.cpp – punkt wejścia aplikacji, wczytywanie parametrów i wywoływanie głównych procedur.
 
 Funkcje.cpp – implementacja silnika programu, walidacji wejść, parsowania plików oraz rekurencyjnego obliczania stanu obwodu.
