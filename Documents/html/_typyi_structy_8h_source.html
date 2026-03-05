@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projekt TUC: Plik źródłowy TypyiStructy.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Projekt TUC
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">TypyiStructy.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_typyi_structy_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="_typyi_structy_8h.html#a842ca6790f315b3f79faf3cda6d6789c">   14</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="_typyi_structy_8h.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a> { AND, NAND, OR, NOR, XOR, XNOR, NEG, IN };</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="_typyi_structy_8h.html#a4bfe935eef0054405b362deea3a7b4af">   20</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="_typyi_structy_8h.html#a4bfe935eef0054405b362deea3a7b4af">GateValue</a> { OFF = 0, ON = 1, UNIND = -1 };</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="struct_g_a_t_e.html">   26</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_g_a_t_e.html">GATE</a> {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="struct_g_a_t_e.html#a8eeb8fb63943c40e8e4118e92e6db094">   27</a></span>    <a class="code hl_enumeration" href="_typyi_structy_8h.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a> <a class="code hl_variable" href="struct_g_a_t_e.html#a8eeb8fb63943c40e8e4118e92e6db094">Name</a>; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="struct_g_a_t_e.html#a3f65205a6149b7e5637eaca1bafea473">   28</a></span>    std::vector&lt;int&gt; <a class="code hl_variable" href="struct_g_a_t_e.html#a3f65205a6149b7e5637eaca1bafea473">inputNodes</a>; </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="struct_g_a_t_e.html#a87cf8a4f5d4f32b81b847096a240d39d">   29</a></span>    <a class="code hl_enumeration" href="_typyi_structy_8h.html#a4bfe935eef0054405b362deea3a7b4af">GateValue</a> <a class="code hl_variable" href="struct_g_a_t_e.html#a87cf8a4f5d4f32b81b847096a240d39d">out</a> = GateValue::UNIND; </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
+</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="struct_p_a_r_a_m.html">   37</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_p_a_r_a_m.html">PARAM</a> {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="struct_p_a_r_a_m.html#a2bb0635fa75735782f617c97fad62807">   38</a></span>    std::string <a class="code hl_variable" href="struct_p_a_r_a_m.html#a2bb0635fa75735782f617c97fad62807">u</a>, </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="struct_p_a_r_a_m.html#afdf62a05f58602b7f56b714de5e177da">   39</a></span>        <a class="code hl_variable" href="struct_p_a_r_a_m.html#afdf62a05f58602b7f56b714de5e177da">i</a>, </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="struct_p_a_r_a_m.html#a565f27da52b2d52566e98d59af673b29">   40</a></span>        <a class="code hl_variable" href="struct_p_a_r_a_m.html#a565f27da52b2d52566e98d59af673b29">o</a>; </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
+</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="ttc" id="a_typyi_structy_8h_html_a4bfe935eef0054405b362deea3a7b4af"><div class="ttname"><a href="_typyi_structy_8h.html#a4bfe935eef0054405b362deea3a7b4af">GateValue</a></div><div class="ttdeci">GateValue</div><div class="ttdoc">Enum opisujacy wartosc na wyjsciu bramki.</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:20</div></div>
+<div class="ttc" id="a_typyi_structy_8h_html_a842ca6790f315b3f79faf3cda6d6789c"><div class="ttname"><a href="_typyi_structy_8h.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a></div><div class="ttdeci">GateType</div><div class="ttdoc">Enum opisujacy typ bramki.</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:14</div></div>
+<div class="ttc" id="astruct_g_a_t_e_html"><div class="ttname"><a href="struct_g_a_t_e.html">GATE</a></div><div class="ttdoc">Struktura odzwierciedlajaca bramki.</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:26</div></div>
+<div class="ttc" id="astruct_g_a_t_e_html_a3f65205a6149b7e5637eaca1bafea473"><div class="ttname"><a href="struct_g_a_t_e.html#a3f65205a6149b7e5637eaca1bafea473">GATE::inputNodes</a></div><div class="ttdeci">std::vector&lt; int &gt; inputNodes</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:28</div></div>
+<div class="ttc" id="astruct_g_a_t_e_html_a87cf8a4f5d4f32b81b847096a240d39d"><div class="ttname"><a href="struct_g_a_t_e.html#a87cf8a4f5d4f32b81b847096a240d39d">GATE::out</a></div><div class="ttdeci">GateValue out</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:29</div></div>
+<div class="ttc" id="astruct_g_a_t_e_html_a8eeb8fb63943c40e8e4118e92e6db094"><div class="ttname"><a href="struct_g_a_t_e.html#a8eeb8fb63943c40e8e4118e92e6db094">GATE::Name</a></div><div class="ttdeci">GateType Name</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:27</div></div>
+<div class="ttc" id="astruct_p_a_r_a_m_html"><div class="ttname"><a href="struct_p_a_r_a_m.html">PARAM</a></div><div class="ttdoc">Struktura zawierajaca w sobie argumenty.</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:37</div></div>
+<div class="ttc" id="astruct_p_a_r_a_m_html_a2bb0635fa75735782f617c97fad62807"><div class="ttname"><a href="struct_p_a_r_a_m.html#a2bb0635fa75735782f617c97fad62807">PARAM::u</a></div><div class="ttdeci">std::string u</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:38</div></div>
+<div class="ttc" id="astruct_p_a_r_a_m_html_a565f27da52b2d52566e98d59af673b29"><div class="ttname"><a href="struct_p_a_r_a_m.html#a565f27da52b2d52566e98d59af673b29">PARAM::o</a></div><div class="ttdeci">std::string o</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:40</div></div>
+<div class="ttc" id="astruct_p_a_r_a_m_html_afdf62a05f58602b7f56b714de5e177da"><div class="ttname"><a href="struct_p_a_r_a_m.html#afdf62a05f58602b7f56b714de5e177da">PARAM::i</a></div><div class="ttdeci">std::string i</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:39</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

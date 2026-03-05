@@ -1,0 +1,230 @@
+\doxysection{Dokumentacja pliku Deklaracja\+Funkcji.\+h}
+\hypertarget{_deklaracja_funkcji_8h}{}\label{_deklaracja_funkcji_8h}\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+
+
+Deklaracja funkcji zawartych w programie.  
+
+
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{_deklaracja_funkcji_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_deklaracja_funkcji_8h_a8c4319738823d11c51c61bc15930ae70}{Check\+Parameters}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdzajaca czy zgadza sie liczba podanych argumentow. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_deklaracja_funkcji_8h_a0149d0f1e1a805bafc8de957efe1c66b}{Read\+Parameters}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]}, struct \mbox{\hyperlink{struct_p_a_r_a_m}{PARAM}} \&parameters)
+\begin{DoxyCompactList}\small\item\em Funkcja czytajaca argumenty i podajaca je do struktury z parametrami. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_deklaracja_funkcji_8h_a1916837ca73c71888cb8b34eb708ca76}{Read\+Circuit}} (std\+::string input, std\+::vector$<$ struct \mbox{\hyperlink{struct_g_a_t_e}{GATE}} $>$ \&Vector\+Gates, std\+::vector$<$ int $>$ \&OUTPUTS, std\+::vector$<$ int $>$ \&INPUTS)
+\begin{DoxyCompactList}\small\item\em Funkcja czytajaca uklad z pliku i budujaca go. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_deklaracja_funkcji_8h_acae805b17525542088008a8a13a1504e}{Read\+Inputs\+And\+Write}} (std\+::string input2, std\+::string output, std\+::vector$<$ struct \mbox{\hyperlink{struct_g_a_t_e}{GATE}} $>$ \&Vector\+Gates, std\+::vector$<$ int $>$ OUTPUTS, std\+::vector$<$ int $>$ INPUTS)
+\begin{DoxyCompactList}\small\item\em Funkcja czytajaca wartosci na wejsciach z pliku i wprowadzajaca wartosci wejsc do ukladu oraz wprowadzajaca wartosci do kazdej bramki i wypisujaca wartosci wyjsc. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{_typyi_structy_8h_a842ca6790f315b3f79faf3cda6d6789c}{Gate\+Type}} \mbox{\hyperlink{_deklaracja_funkcji_8h_adcda75749f0698a93dc5d706e36399b7}{Translate\+String\+To\+Enum}} (std\+::string original)
+\begin{DoxyCompactList}\small\item\em Funkcja "{}tlumaczaca"{} stringi z pliku na enum. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_deklaracja_funkcji_8h_aa76e3bf7985b978872ffb42ff84c9793}{Evaluate\+Out}} (int node\+ID, std\+::vector$<$ struct \mbox{\hyperlink{struct_g_a_t_e}{GATE}} $>$ \&Vector\+Gates)
+\begin{DoxyCompactList}\small\item\em Funkcja wyliczajaca wartosc wyjscia z wartosci znajdujacej sie na wejsciu bramki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Deklaracja funkcji zawartych w programie. 
+
+\begin{DoxyAuthor}{Autor}
+Igor Szyk 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Wersja}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Data}
+2024-\/01-\/28 
+\end{DoxyDate}
+
+
+\doxysubsection{Dokumentacja funkcji}
+\Hypertarget{_deklaracja_funkcji_8h_a8c4319738823d11c51c61bc15930ae70}\label{_deklaracja_funkcji_8h_a8c4319738823d11c51c61bc15930ae70} 
+\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}!CheckParameters@{CheckParameters}}
+\index{CheckParameters@{CheckParameters}!DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+\doxysubsubsection{\texorpdfstring{CheckParameters()}{CheckParameters()}}
+{\footnotesize\ttfamily void Check\+Parameters (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdzajaca czy zgadza sie liczba podanych argumentow. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em argc} & parametr dla ilosci argumentow \\
+\hline
+{\em argv\mbox{[}$\,$\mbox{]}} & parametr tablicy dla nazw plikow uzywanych w programie \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{_deklaracja_funkcji_8h_a8c4319738823d11c51c61bc15930ae70_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_deklaracja_funkcji_8h_aa76e3bf7985b978872ffb42ff84c9793}\label{_deklaracja_funkcji_8h_aa76e3bf7985b978872ffb42ff84c9793} 
+\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}!EvaluateOut@{EvaluateOut}}
+\index{EvaluateOut@{EvaluateOut}!DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+\doxysubsubsection{\texorpdfstring{EvaluateOut()}{EvaluateOut()}}
+{\footnotesize\ttfamily void Evaluate\+Out (\begin{DoxyParamCaption}\item[{int}]{node\+ID,  }\item[{std\+::vector$<$ struct \mbox{\hyperlink{struct_g_a_t_e}{GATE}} $>$ \&}]{Vector\+Gates }\end{DoxyParamCaption})}
+
+
+
+Funkcja wyliczajaca wartosc wyjscia z wartosci znajdujacej sie na wejsciu bramki. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em node\+ID} & numer wezla z ktorego aktualnie bedzie wyznaczana wartosc na wyjsciu \\
+\hline
+{\em Vector\+Gates} & wektor zawierajacy uklad, na ktorym bedzie sie operowac \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{_deklaracja_funkcji_8h_aa76e3bf7985b978872ffb42ff84c9793_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_deklaracja_funkcji_8h_aa76e3bf7985b978872ffb42ff84c9793_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_deklaracja_funkcji_8h_a1916837ca73c71888cb8b34eb708ca76}\label{_deklaracja_funkcji_8h_a1916837ca73c71888cb8b34eb708ca76} 
+\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}!ReadCircuit@{ReadCircuit}}
+\index{ReadCircuit@{ReadCircuit}!DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+\doxysubsubsection{\texorpdfstring{ReadCircuit()}{ReadCircuit()}}
+{\footnotesize\ttfamily void Read\+Circuit (\begin{DoxyParamCaption}\item[{std\+::string}]{input,  }\item[{std\+::vector$<$ struct \mbox{\hyperlink{struct_g_a_t_e}{GATE}} $>$ \&}]{Vector\+Gates,  }\item[{std\+::vector$<$ int $>$ \&}]{OUTPUTS,  }\item[{std\+::vector$<$ int $>$ \&}]{INPUTS }\end{DoxyParamCaption})}
+
+
+
+Funkcja czytajaca uklad z pliku i budujaca go. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em input} & plik z ktorego czyta sie budowe ukladu \\
+\hline
+{\em Vector\+Gates} & wektor do ktorego wpisuje sie wyczytany uklad z pliku \\
+\hline
+{\em OUTPUTS} & wektor do ktorego wypisuje sie numery bramek wyjscia \\
+\hline
+{\em INPUTS} & wektor do ktorego wypisuje sie numery bramek wejscia \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{_deklaracja_funkcji_8h_a1916837ca73c71888cb8b34eb708ca76_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{_deklaracja_funkcji_8h_a1916837ca73c71888cb8b34eb708ca76_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_deklaracja_funkcji_8h_acae805b17525542088008a8a13a1504e}\label{_deklaracja_funkcji_8h_acae805b17525542088008a8a13a1504e} 
+\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}!ReadInputsAndWrite@{ReadInputsAndWrite}}
+\index{ReadInputsAndWrite@{ReadInputsAndWrite}!DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+\doxysubsubsection{\texorpdfstring{ReadInputsAndWrite()}{ReadInputsAndWrite()}}
+{\footnotesize\ttfamily void Read\+Inputs\+And\+Write (\begin{DoxyParamCaption}\item[{std\+::string}]{input2,  }\item[{std\+::string}]{output,  }\item[{std\+::vector$<$ struct \mbox{\hyperlink{struct_g_a_t_e}{GATE}} $>$ \&}]{Vector\+Gates,  }\item[{std\+::vector$<$ int $>$}]{OUTPUTS,  }\item[{std\+::vector$<$ int $>$}]{INPUTS }\end{DoxyParamCaption})}
+
+
+
+Funkcja czytajaca wartosci na wejsciach z pliku i wprowadzajaca wartosci wejsc do ukladu oraz wprowadzajaca wartosci do kazdej bramki i wypisujaca wartosci wyjsc. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em input2} & plik z ktorego czyta sie wartosci na wejsciach \\
+\hline
+{\em output} & plik do ktorego wypisuje sie wartosci wejsc i wyjsc \\
+\hline
+{\em Vector\+Gates} & wektor na ktorym czyta sie wartosci wyjsc potrzebnych bramek \\
+\hline
+{\em OUTPUTS} & wektor numerow wyjsc do ktorych szuka sie wartosci \\
+\hline
+{\em INPUTS} & wektor numerow wejsc, ktore wykorzystuje sie do sprawdzenia czy zgadza sie ilosc wartosci z iloscia numerow wezlow \\
+\hline
+\end{DoxyParams}
+Oto graf wywołań dla tej funkcji\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{_deklaracja_funkcji_8h_acae805b17525542088008a8a13a1504e_cgraph}
+\end{center}
+\end{figure}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{_deklaracja_funkcji_8h_acae805b17525542088008a8a13a1504e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_deklaracja_funkcji_8h_a0149d0f1e1a805bafc8de957efe1c66b}\label{_deklaracja_funkcji_8h_a0149d0f1e1a805bafc8de957efe1c66b} 
+\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}!ReadParameters@{ReadParameters}}
+\index{ReadParameters@{ReadParameters}!DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+\doxysubsubsection{\texorpdfstring{ReadParameters()}{ReadParameters()}}
+{\footnotesize\ttfamily void Read\+Parameters (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]},  }\item[{struct \mbox{\hyperlink{struct_p_a_r_a_m}{PARAM}} \&}]{parameters }\end{DoxyParamCaption})}
+
+
+
+Funkcja czytajaca argumenty i podajaca je do struktury z parametrami. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em argc} & parametr dla ilosci argumentow \\
+\hline
+{\em argv\mbox{[}$\,$\mbox{]}} & parametr tablicy dla nazw plikow uzywanych w programie \\
+\hline
+{\em parameters} & parametr struktury do ktorej wstawia sie wyczytane argumenty \\
+\hline
+\end{DoxyParams}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{_deklaracja_funkcji_8h_a0149d0f1e1a805bafc8de957efe1c66b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{_deklaracja_funkcji_8h_adcda75749f0698a93dc5d706e36399b7}\label{_deklaracja_funkcji_8h_adcda75749f0698a93dc5d706e36399b7} 
+\index{DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}!TranslateStringToEnum@{TranslateStringToEnum}}
+\index{TranslateStringToEnum@{TranslateStringToEnum}!DeklaracjaFunkcji.h@{DeklaracjaFunkcji.h}}
+\doxysubsubsection{\texorpdfstring{TranslateStringToEnum()}{TranslateStringToEnum()}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_typyi_structy_8h_a842ca6790f315b3f79faf3cda6d6789c}{Gate\+Type}} Translate\+String\+To\+Enum (\begin{DoxyParamCaption}\item[{std\+::string}]{original }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Funkcja "{}tlumaczaca"{} stringi z pliku na enum. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em original} & parametr zawierajacy oryginalny tekst w stringu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+typ bramki w enum 
+\end{DoxyReturn}
+Oto graf wywoływań tej funkcji\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_deklaracja_funkcji_8h_adcda75749f0698a93dc5d706e36399b7_icgraph}
+\end{center}
+\end{figure}

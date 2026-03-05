@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projekt TUC: Plik źródłowy DeklaracjaFunkcji.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Projekt TUC
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">DeklaracjaFunkcji.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_deklaracja_funkcji_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> <a class="code hl_function" href="_deklaracja_funkcji_8h.html#a8c4319738823d11c51c61bc15930ae70">CheckParameters</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]); </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keywordtype">void</span> <a class="code hl_function" href="_deklaracja_funkcji_8h.html#a0149d0f1e1a805bafc8de957efe1c66b">ReadParameters</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[], <span class="keyword">struct</span> <a class="code hl_struct" href="struct_p_a_r_a_m.html">PARAM</a>&amp; parameters);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="_deklaracja_funkcji_8h.html#a1916837ca73c71888cb8b34eb708ca76">ReadCircuit</a>(std::string input, std::vector&lt;struct GATE&gt; &amp;VectorGates, std::vector&lt;int&gt; &amp;OUTPUTS, std::vector&lt;int&gt;&amp; INPUTS);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">void</span> <a class="code hl_function" href="_deklaracja_funkcji_8h.html#acae805b17525542088008a8a13a1504e">ReadInputsAndWrite</a>(std::string input2, std::string output, std::vector&lt;struct GATE&gt;&amp; VectorGates, std::vector&lt;int&gt; OUTPUTS, std::vector&lt;int&gt; INPUTS);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="_typyi_structy_8h.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a> <a class="code hl_function" href="_deklaracja_funkcji_8h.html#adcda75749f0698a93dc5d706e36399b7">TranslateStringToEnum</a>(std::string original);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keywordtype">void</span> <a class="code hl_function" href="_deklaracja_funkcji_8h.html#aa76e3bf7985b978872ffb42ff84c9793">EvaluateOut</a>(<span class="keywordtype">int</span> nodeID, std::vector&lt;struct GATE&gt; &amp;VectorGates);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="ttc" id="a_deklaracja_funkcji_8h_html_a0149d0f1e1a805bafc8de957efe1c66b"><div class="ttname"><a href="_deklaracja_funkcji_8h.html#a0149d0f1e1a805bafc8de957efe1c66b">ReadParameters</a></div><div class="ttdeci">void ReadParameters(int argc, char *argv[], struct PARAM &amp;parameters)</div><div class="ttdoc">Funkcja czytajaca argumenty i podajaca je do struktury z parametrami.</div><div class="ttdef"><b>Definition</b> Funkcje.cpp:33</div></div>
+<div class="ttc" id="a_deklaracja_funkcji_8h_html_a1916837ca73c71888cb8b34eb708ca76"><div class="ttname"><a href="_deklaracja_funkcji_8h.html#a1916837ca73c71888cb8b34eb708ca76">ReadCircuit</a></div><div class="ttdeci">void ReadCircuit(std::string input, std::vector&lt; struct GATE &gt; &amp;VectorGates, std::vector&lt; int &gt; &amp;OUTPUTS, std::vector&lt; int &gt; &amp;INPUTS)</div><div class="ttdoc">Funkcja czytajaca uklad z pliku i budujaca go.</div><div class="ttdef"><b>Definition</b> Funkcje.cpp:53</div></div>
+<div class="ttc" id="a_deklaracja_funkcji_8h_html_a8c4319738823d11c51c61bc15930ae70"><div class="ttname"><a href="_deklaracja_funkcji_8h.html#a8c4319738823d11c51c61bc15930ae70">CheckParameters</a></div><div class="ttdeci">void CheckParameters(int argc, char *argv[])</div><div class="ttdoc">Funkcja sprawdzajaca czy zgadza sie liczba podanych argumentow.</div><div class="ttdef"><b>Definition</b> Funkcje.cpp:21</div></div>
+<div class="ttc" id="a_deklaracja_funkcji_8h_html_aa76e3bf7985b978872ffb42ff84c9793"><div class="ttname"><a href="_deklaracja_funkcji_8h.html#aa76e3bf7985b978872ffb42ff84c9793">EvaluateOut</a></div><div class="ttdeci">void EvaluateOut(int nodeID, std::vector&lt; struct GATE &gt; &amp;VectorGates)</div><div class="ttdoc">Funkcja wyliczajaca wartosc wyjscia z wartosci znajdujacej sie na wejsciu bramki.</div><div class="ttdef"><b>Definition</b> Funkcje.cpp:244</div></div>
+<div class="ttc" id="a_deklaracja_funkcji_8h_html_acae805b17525542088008a8a13a1504e"><div class="ttname"><a href="_deklaracja_funkcji_8h.html#acae805b17525542088008a8a13a1504e">ReadInputsAndWrite</a></div><div class="ttdeci">void ReadInputsAndWrite(std::string input2, std::string output, std::vector&lt; struct GATE &gt; &amp;VectorGates, std::vector&lt; int &gt; OUTPUTS, std::vector&lt; int &gt; INPUTS)</div><div class="ttdoc">Funkcja czytajaca wartosci na wejsciach z pliku i wprowadzajaca wartosci wejsc do ukladu oraz wprowad...</div><div class="ttdef"><b>Definition</b> Funkcje.cpp:127</div></div>
+<div class="ttc" id="a_deklaracja_funkcji_8h_html_adcda75749f0698a93dc5d706e36399b7"><div class="ttname"><a href="_deklaracja_funkcji_8h.html#adcda75749f0698a93dc5d706e36399b7">TranslateStringToEnum</a></div><div class="ttdeci">enum GateType TranslateStringToEnum(std::string original)</div><div class="ttdoc">Funkcja &quot;tlumaczaca&quot; stringi z pliku na enum.</div><div class="ttdef"><b>Definition</b> Funkcje.cpp:209</div></div>
+<div class="ttc" id="a_typyi_structy_8h_html_a842ca6790f315b3f79faf3cda6d6789c"><div class="ttname"><a href="_typyi_structy_8h.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a></div><div class="ttdeci">GateType</div><div class="ttdoc">Enum opisujacy typ bramki.</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:14</div></div>
+<div class="ttc" id="astruct_p_a_r_a_m_html"><div class="ttname"><a href="struct_p_a_r_a_m.html">PARAM</a></div><div class="ttdoc">Struktura zawierajaca w sobie argumenty.</div><div class="ttdef"><b>Definition</b> TypyiStructy.h:37</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

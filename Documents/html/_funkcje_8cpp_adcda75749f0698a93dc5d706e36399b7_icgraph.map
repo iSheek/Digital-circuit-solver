@@ -1,0 +1,7 @@
+<map id="TranslateStringToEnum" name="TranslateStringToEnum">
+<area shape="rect" id="Node000001" title="Funkcja &quot;tlumaczaca&quot; stringi z pliku na enum." alt="" coords="239,5,395,32"/>
+<area shape="rect" id="Node000002" href="$_funkcje_8cpp.html#a1916837ca73c71888cb8b34eb708ca76" title="Funkcja czytajaca uklad z pliku i budujaca go." alt="" coords="103,5,191,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,21,191,21,191,16,223,16"/>
+<area shape="rect" id="Node000003" href="$_main_kod_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Glowna funkcja." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

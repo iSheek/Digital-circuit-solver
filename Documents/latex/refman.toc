@@ -1,0 +1,46 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Indeks klas}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Lista klas}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks plików}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista plików}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Dokumentacja klas}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dokumentacja struktury GATE}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Opis szczegółowy}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Dokumentacja atrybutów składowych}{5}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}inputNodes}{5}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Name}{5}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}out}{6}{subsubsection.3.1.2.3}%
+\contentsline {section}{\numberline {3.2}Dokumentacja struktury PARAM}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Opis szczegółowy}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Dokumentacja atrybutów składowych}{6}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}i}{6}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}o}{6}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}u}{6}{subsubsection.3.2.2.3}%
+\contentsline {chapter}{\numberline {4}Dokumentacja plików}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dokumentacja pliku Deklaracja\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funkcji.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Opis szczegółowy}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Dokumentacja funkcji}{8}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}CheckParameters()}{8}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}EvaluateOut()}{8}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}ReadCircuit()}{9}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}ReadInputsAndWrite()}{10}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}ReadParameters()}{11}{subsubsection.4.1.2.5}%
+\contentsline {subsubsection}{\numberline {4.1.2.6}TranslateStringToEnum()}{12}{subsubsection.4.1.2.6}%
+\contentsline {section}{\numberline {4.2}Deklaracja\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Funkcji.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Dokumentacja pliku Funkcje.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{12}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Opis szczegółowy}{13}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Dokumentacja funkcji}{14}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}CheckParameters()}{14}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}EvaluateOut()}{15}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}ReadCircuit()}{16}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}ReadInputsAndWrite()}{17}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}ReadParameters()}{17}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}TranslateStringToEnum()}{18}{subsubsection.4.3.2.6}%
+\contentsline {section}{\numberline {4.4}Dokumentacja pliku Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Kod.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{18}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Opis szczegółowy}{19}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Dokumentacja funkcji}{19}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}main()}{19}{subsubsection.4.4.2.1}%
+\contentsline {section}{\numberline {4.5}Dokumentacja pliku Typyi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Structy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{20}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Opis szczegółowy}{21}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Typyi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Structy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{21}{section.4.6}%
