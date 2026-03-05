@@ -3,7 +3,7 @@
 ## 📌 O projekcie
 Ten projekt to program napisany w języku C++, który służy do symulacji i rozwiązywania cyfrowych układów logicznych. Narzędzie potrafi odczytać schemat układu z pliku tekstowego, przyjąć zdefiniowane stany wejściowe, a następnie obliczyć i zapisać do pliku wynikowego wartości na wyjściach układu. Obliczenia dokonywane są na grafie z użyciem algorytmu rekurencyjnego.
 
-**Kontekst powstania:** Projekt został zrealizowany w ramach zaliczenia przedmiotu *Programowanie Komputerów* na moim 1. semestrze studiów (semestr zimowy, październik 2023 – luty 2024). Program został ukończony i oddany do sprawdzenia pod koniec stycznia 2024 roku.
+**Kontekst powstania:** Projekt został zrealizowany w ramach zaliczenia przedmiotu *Podstawy Programowania Komputerów* na moim 1. semestrze studiów (semestr zimowy, październik 2023 – luty 2024). Program został ukończony i oddany do sprawdzenia pod koniec stycznia 2024 roku.
 
 ## 🚀 Funkcjonalności
 * Obsługa podstawowych bramek logicznych: **AND, NAND, OR, NOR, XOR, XNOR, NEG**.
